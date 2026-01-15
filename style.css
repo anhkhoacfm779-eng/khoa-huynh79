@@ -1,4 +1,6 @@
-/* RESET */
+/* =====================
+   RESET CƠ BẢN
+===================== */
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +8,17 @@
     font-family: Arial, sans-serif;
 }
 
-/* BODY */
+/* =====================
+   BODY
+===================== */
 body {
     padding: 25px;
     line-height: 1.5;
 }
 
-/* HEADER */
+/* =====================
+   HEADER
+===================== */
 .header {
     margin-bottom: 25px;
 }
@@ -26,7 +32,9 @@ body {
     color: #555;
 }
 
-/* CONTAINER CHIA 2 CỘT */
+/* =====================
+   LAYOUT 2 CỘT
+===================== */
 .container {
     display: flex;
     gap: 40px;
@@ -42,31 +50,50 @@ body {
     width: 70%;
 }
 
-/* TIÊU ĐỀ PHỤ */
+/* =====================
+   SECTION
+===================== */
 .section h4 {
     margin: 15px 0 5px;
 }
 
-/* ẢNH GIẢ NHỎ */
-.image-box {
-    background-color: #9e9e9e;
-    color: #fff;
-    height: 65px;
-    margin: 12px 0;
-    padding: 6px 10px;
-    display: flex;
-    align-items: flex-end;
-    font-size: 14px;
-}
-
-/* ẢNH GIẢ LỚN */
+/* =====================
+   ẢNH GIẢ (MẶC ĐỊNH)
+===================== */
+.image-box,
 .main-image {
     background-color: #9e9e9e;
-    height: 210px;
-    margin-bottom: 15px;
-    padding: 6px 10px;
     color: #fff;
+    padding: 6px 10px;
     display: flex;
     align-items: flex-end;
     font-size: 14px;
+    overflow: hidden;
 }
+
+/* ẢNH NHỎ */
+.image-box {
+    height: 65px;
+    margin: 12px 0;
+}
+
+/* ẢNH LỚN */
+.main-image {
+    height: 210px;
+    margin-bottom: 15px;
+}
+
+/* =====================
+   SẴN SÀNG THÊM ẢNH THẬT
+   (CHỈ DÙNG KHI CÓ THƯ MỤC images)
+===================== */
+
+/*
+.image-box img,
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+*/
