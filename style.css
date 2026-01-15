@@ -4,50 +4,57 @@
 }
 
 body {
-    margin: 0;
-    padding: 20px;
+    margin: 20px;
 }
 
-/* Container */
-.container {
+/* Tiêu đề */
+.page-title {
+    margin-bottom: 20px;
+}
+
+/* Layout 2 cột */
+.layout {
     display: flex;
     gap: 30px;
 }
 
-/* Left column */
-.left {
+/* Cột trái */
+.sidebar {
     width: 30%;
 }
 
-.left h3 {
+.sidebar h3 {
     margin-top: 20px;
 }
 
-.small-img {
-    background-color: #999;
-    color: #fff;
-    height: 60px;
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-}
-
-/* Right column */
-.right {
+/* Cột phải */
+.content {
     width: 70%;
 }
 
-.big-img {
-    background-color: #999;
+/* Ảnh giả */
+.img {
+    background-color: #9e9e9e;
     color: #fff;
-    height: 180px;
-    margin: 15px 0;
     display: flex;
-    align-items: center;
-    padding-left: 10px;
+    align-items: flex-end;
+    padding: 5px 10px;
+    font-size: 14px;
 }
 
+/* Ảnh nhỏ bên trái */
+.small {
+    height: 60px;
+    margin: 10px 0;
+}
+
+/* Ảnh lớn bên phải */
+.large {
+    height: 200px;
+    margin: 15px 0;
+}
+
+/* Ngày */
 .date {
     font-size: 14px;
     color: #555;
