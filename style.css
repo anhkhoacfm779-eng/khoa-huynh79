@@ -74,4 +74,6 @@ body {
     display: flex;
     align-items: flex-end;
     font-size: 14px;
-}
+    overflow: hidden;
+
+}    
