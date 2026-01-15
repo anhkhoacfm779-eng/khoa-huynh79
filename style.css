@@ -1,4 +1,4 @@
-/* RESET CƠ BẢN */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -12,72 +12,66 @@ body {
     line-height: 1.5;
 }
 
-/* TIÊU ĐỀ ĐẦU TRANG */
-.title {
+/* HEADER */
+.header {
     margin-bottom: 25px;
-    font-size: 22px;
-    font-weight: bold;
 }
 
-/* KHUNG CHÍNH CHIA 2 CỘT */
-.wrapper {
-    display: flex;              /* chia cột */
-    gap: 40px;                  /* khoảng cách 2 cột */
+.header h1 {
+    font-size: 28px;
 }
 
-/* =====================
-   CỘT TRÁI
-===================== */
-.left {
-    width: 28%;                 /* đúng tỉ lệ hình */
-}
-
-/* tiêu đề phụ */
-.left h4 {
-    margin: 20px 0 5px;
-}
-
-/* =====================
-   CỘT PHẢI
-===================== */
-.right {
-    width: 72%;
-}
-
-/* TITLE HEADING */
-.heading {
-    margin-top: 20px;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-/* NGÀY */
-.date {
-    font-size: 14px;
+.header p {
     color: #555;
-    margin-bottom: 10px;
-}
-
-/* =====================
-   KHỐI ẢNH GIẢ
-===================== */
-.img {
-    background-color: #9e9e9e;  /* xám giống đề */
-    color: #fff;
-    padding: 6px 10px;
     font-size: 14px;
-    display: flex;
-    align-items: flex-end;
 }
 
-/* ẢNH NHỎ BÊN TRÁI */
-.small {
+/* CONTAINER CHIA 2 CỘT */
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+/* CỘT TRÁI */
+.left-column {
+    width: 30%;
+}
+
+/* CỘT PHẢI */
+.right-column {
+    width: 70%;
+}
+
+/* SECTION */
+.section {
+    margin-bottom: 20px;
+}
+
+/* TIÊU ĐỀ PHỤ */
+.section h4 {
+    margin: 15px 0 5px;
+}
+
+/* ẢNH GIẢ NHỎ */
+.image-box {
+    background-color: #9e9e9e;
+    color: #fff;
     height: 65px;
     margin: 12px 0;
+    padding: 6px 10px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
 }
 
-/* ẢNH LỚN BÊN PHẢI */
-.large {
+/* ẢNH CHÍNH BÊN PHẢI */
+.main-image {
+    background-color: #9e9e9e;
     height: 210px;
-    margin: 15px 0;
+    margin-bottom: 15px;
+    padding: 6px 10px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
 }
